@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import { StaticQuery, graphql } from 'gatsby'
 
 import cosmicjsLogo from '../../static/cosmicjs.svg'
-import gatsbyLogo from '../../static/gatsby.png'
+import gatsbyLogo from '../../static/gatsbyjs-icon.svg'
 import { rhythm, scale } from '../utils/typography'
 
 // Import typefaces
@@ -54,6 +54,7 @@ export default ({ children, location }) => (
             <h1
               style={{
                 ...scale(1.3),
+                color: 'white',
                 position: 'absolute',
                 textAlign: 'center',
                 left: 0,
